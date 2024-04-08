@@ -18,14 +18,7 @@
 name: Kyuubi Spark Nightly
 
 on:
-  push:
-    branches:
-      - master
-      - branch-*
   pull_request:
-    branches:
-      - master
-      - branch-*
 
 jobs:
   build:
