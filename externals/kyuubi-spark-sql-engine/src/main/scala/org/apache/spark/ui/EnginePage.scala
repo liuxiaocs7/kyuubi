@@ -20,12 +20,12 @@ package org.apache.spark.ui
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets.UTF_8
 import java.util.Date
-import javax.servlet.http.HttpServletRequest
 
 import scala.collection.JavaConverters.mapAsScalaMapConverter
 import scala.collection.mutable
 import scala.xml.{Node, Unparsed}
 
+import jakarta.servlet.http.HttpServletRequest
 import org.apache.commons.text.StringEscapeUtils
 import org.apache.spark.ui.TableSourceUtil._
 import org.apache.spark.ui.UIUtils._

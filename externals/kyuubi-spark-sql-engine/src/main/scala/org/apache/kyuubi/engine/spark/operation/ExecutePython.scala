@@ -24,10 +24,10 @@ import java.nio.file.{Files, Path, Paths}
 import java.util.concurrent.RejectedExecutionException
 import java.util.concurrent.atomic.AtomicBoolean
 import java.util.concurrent.locks.ReentrantLock
-import javax.ws.rs.core.UriBuilder
 
 import scala.collection.JavaConverters._
 
+import jakarta.ws.rs.core.UriBuilder
 import org.apache.commons.lang3.StringUtils
 import org.apache.spark.SparkFiles
 import org.apache.spark.api.python.KyuubiPythonGatewayServer
