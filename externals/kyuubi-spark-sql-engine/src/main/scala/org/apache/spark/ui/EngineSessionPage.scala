@@ -18,11 +18,11 @@
 package org.apache.spark.ui
 
 import java.util.Date
+import javax.servlet.http.HttpServletRequest
 
 import scala.collection.mutable
 import scala.xml.Node
 
-import jakarta.servlet.http.HttpServletRequest
 import org.apache.spark.internal.Logging
 import org.apache.spark.internal.config.SECRET_REDACTION_PATTERN
 import org.apache.spark.ui.UIUtils._
